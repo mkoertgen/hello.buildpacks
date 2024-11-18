@@ -1,0 +1,11 @@
+api = "0.8"
+WithWindowsBuild = false
+WithLinuxBuild = false
+
+[buildpack]
+  id = "apt-install"
+  version = "1.0.0"
+
+[[targets]]
+  os = "windows"
+  arch = "amd64"
